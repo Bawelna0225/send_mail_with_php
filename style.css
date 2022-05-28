@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(5, 43, 38);
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-text {
+  position: absolute;
+  font-size: 15rem;
+  opacity: 0.1;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 60px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 5px;
+  gap: 5px;
+}
+form label {
+  margin-top: 15px;
+}
+form input,
+form textarea {
+  width: 350px;
+  border-radius: 5px;
+  background-color: rgba(14, 42, 36, 0.839);
+  border: none;
+  color: #ddd;
+  padding-left: 5px;
+  outline: none;
+}
+form input:focus,
+form textarea:focus {
+  border-bottom: 3px solid rgb(8, 92, 90);
+}
+form input {
+  height: 40px;
+}
+form textarea {
+  padding-block: 5px;
+  resize: none;
+  height: 200px;
+  overflow-y: auto;
+}
+form textarea::-webkit-scrollbar {
+  width: 5px;
+}
+form textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(8, 92, 90);
+}
+form #submit {
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: #ddd;
+  background-color: rgb(8, 92, 90);
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
