@@ -10,6 +10,6 @@
 
     mail($to, $subject, $message, $mailheader);
     
-    echo "New Mail Recived!\n\r $mailheader Subject: $subject\n\r Message: $message\n\r Destined for: $to ";
+    echo "New Mail Recived!\n\r $mailheader Subject: $subject\n\r Message: $message\n\r Destined for: $to "; #control message
 
 ?>
